@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+header{
+    width: 100%;
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px; 
+    justify-content: space-between;
+    
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar i{
+    margin-right: 2px;
+    color: #555; 
+}
+
+.searchbar input{
+    border: none;
+    outline: none;                  
+    padding: 2px;
+    width: 100%;
+    font-size: 15px;
+    color: #ccc;
+
+}
+
+
+
+.select_city select{
+    border: none;
+    outline: none;
+    color: #555;
+    border: 1 px solid #ccc;
+    width: 80px;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 3px;
+    
+}
+
+.hero-section{
+    margin: 20px;
+    
+}
+
+.hero-section img{
+    
+    width: 100%;
+    height: auto;
+    max-width: 1500px;
+}
+
+main{
+    margin-top: 40px;
+    margin-left: 18px;
+}
+
+
+
+main img{
+    width: 268px;
+    height: 183px;
+    padding: 10px;
+    transition: 0.3s transform, box-shadow 0.3s;
+    box-shadow: 0p, 4px, 6px rgba(0,0,0,0.1);
+}
+
+main img:hover{
+    transform: scale(1.05);
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.foot1{
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
+.foot2{
+    margin-left: 100px;
+   
+}
+
+.foot2 ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    
+}
+
+
+/* Main Container */
+.main3 {
+    max-width: 1200px;
+  }
+  
+ 
+  
+  /* Recipe Items */
+  .recipe-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  } 
+  
+  .recipe-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+
